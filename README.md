@@ -155,3 +155,16 @@ GitHub: [https://github.com/DeveloperJarvis](https://github.com/DeveloperJarvis)
 
 This project is licensed under the **GNU GPL-3.0-or-later** license.
 See `LICENSE` for details.
+
+## Creating tag
+
+```bash
+# 1. Check existing tags
+git tag
+# 2. Create a valid tag
+git tag -a v1.0.0 -m "Release version 1.0.0"
+# or lightweight tag
+git tag v1.0.0
+# push tag to remote
+git push origin v1.0.0
+```
