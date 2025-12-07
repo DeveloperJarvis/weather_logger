@@ -53,19 +53,19 @@ weather_logger/
 ### **Linux / macOS**
 
 ```
-gcc -o weather_logger weather_logger.c
+ gcc -o weather_logger weather_logger.c display.c utils.c simulation.c log_storage.c file_io.c
 ```
 
 ### **Windows (MinGW)**
 
 ```
-gcc -o weather_logger weather_logger.c
+ gcc -o weather_logger weather_logger.c display.c utils.c simulation.c log_storage.c file_io.c
 ```
 
 Or using MSVC:
 
 ```
-cl weather_logger.c
+cl weather_logger.c display.c utils.c simulation.c log_storage.c file_io.c
 ```
 
 ---
